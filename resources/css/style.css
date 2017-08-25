@@ -67,6 +67,7 @@ body div {
 
 input.btn {
 	margin-right:10px;
+
 }
 
 #won {
@@ -78,4 +79,17 @@ input.btn {
 	color:white;
 	font-size:4rem;
 	transition: 1s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    input.btn  {
+        width: 200px;
+    }
+    #counter {
+    	width:200px;
+    }
+    #won {
+    	font-size:2rem;
+
+    }
 }

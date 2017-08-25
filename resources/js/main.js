@@ -145,5 +145,3 @@ if ($card.data('isFlipped')) {
 
 
 /* Game Over */
-
-
