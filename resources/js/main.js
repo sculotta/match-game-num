@@ -42,6 +42,8 @@ MatchGame.generateCardValues = function () {
 */
 
 
+
+
 MatchGame.renderCards = function(shuffleValues, $game) {
   var colors = [
     'hsl(25, 85%, 65%)',
